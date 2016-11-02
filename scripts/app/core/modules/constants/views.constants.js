@@ -1,0 +1,3 @@
+module.exports = {
+  HOMEPAGE: 'homepage'
+};

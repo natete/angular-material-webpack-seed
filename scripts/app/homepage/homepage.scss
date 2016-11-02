@@ -1,0 +1,24 @@
+// This must surround all your rules like below so angular material will compile using the theme variables
+.md-THEME_NAME-theme {
+
+  .my-app-banner {
+    height: 230px;
+  }
+
+  &.my-app-homepage {
+    background-color: white;
+  }
+
+  md-card.my-app-card {
+    background-color: "{{primary-A400}}";
+    color: "{{accent-200}}";
+  }
+
+  .my-app-card-content {
+    background-color: "{{warn-A400}}";
+
+    p {
+      color: "{{accent-300}}";
+    }
+  }
+}
